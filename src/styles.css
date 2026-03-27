@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px
+}
+
+nav button{
+    padding: 5px 15px;
+    border-radius: 5px;
+}
