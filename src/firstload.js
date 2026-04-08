@@ -1,4 +1,4 @@
-function firstLoad() {
+export default function firstLoad() {
     const mainContent = document.getElementById("content");
     mainContent.innerHTML += `<div class="main-contenedor">
             <div class="foto">
@@ -13,4 +13,5 @@ function firstLoad() {
         </div>`
 }
 
-export { firstLoad };
+
+
