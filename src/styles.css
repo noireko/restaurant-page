@@ -2,17 +2,73 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 header {
-    background: green;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.486);
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container-header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px
+    padding: 20px;
 }
 
-nav button{
-    padding: 5px 15px;
+header h2 {
+    color: #ffff;
+}
+
+button {
+    background-color: rgb(224, 146, 0);
+    color: #ffff;
+    border: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(167, 109, 2);
+}
+
+nav button {
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.main-contenedor {
+    height: 100vb;
+}
+
+.foto {
+    height: 100%;
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/51/77/a2/intro-restaurant-plaza.jpg?w=900&h=500&s=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedor-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 15px;
+    background: rgba(0, 0, 0, 0.582);
+    color: #ffff;
+}
+
+.contenedor-texto h2 {
+    margin-bottom: 15px;
+}
+
+.contenedor-btn button {
+
+    padding: 10px 15px;
     border-radius: 5px;
 }
