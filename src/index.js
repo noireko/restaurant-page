@@ -1,2 +1,4 @@
 import "./styles.css";
-import { firstLoad } from "./firstload.js"
+import firstLoad from "./firstload.js";
+
+firstLoad();
