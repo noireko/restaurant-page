@@ -90,3 +90,9 @@ nav button {
 .contenedor-menu p {
     margin: 15px 0 30px
 }
+
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
