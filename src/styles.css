@@ -72,3 +72,21 @@ nav button {
     padding: 10px 15px;
     border-radius: 5px;
 }
+
+.contenedor-menu {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contenedor-menu article {
+    border-radius: 10px;
+    border: 1px solid #ffff;
+    width: 40%;
+    padding: 29px;
+}
+
+.contenedor-menu p {
+    margin: 15px 0 30px
+}
